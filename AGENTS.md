@@ -27,7 +27,7 @@ redesign game rules unless a doc says so.
 - **No EA trademarks** in crate names, binary names, or UI. The project is named "Oxide Hour"; the `zr-` crate prefix
   keeps the earlier working title's initials.
 - **`references/` is read-only** and git-ignored. Never edit or commit it.
-- Don't commit or push unless the user asks.
+- Don't commit or push unless the user asks. `main` is the only working branch and the only one that is ever pushed.
 
 ## Where the truth lives
 

@@ -9,7 +9,9 @@ second) up to which a matchup agrees with the original C++ build; matchup codes 
 
 An outside audit of the project set the order of work (now in the roadmap). Three platform-dependent maths calls
 were removed from the simulation logic. `LICENSE.md` was added. The project was renamed Oxide Hour, the README
-became a front page, and the roadmap and the other docs were cut down for a public repository.
+became a front page, and the roadmap and the other docs were cut down for a public repository. The viewer's user
+data folder was renamed to `OxideHour`; a folder left by an older build is moved on first use. The repository
+history was restarted from a single commit for publishing.
 
 ## 2026-11-10 — Defection, cash bounty, assault transport, exact inverse square root
 

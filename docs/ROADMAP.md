@@ -41,7 +41,7 @@ whether a game reaches the same winner flips with simulation changes. Judge by t
 
 ## Order of work
 
-1. **Private remote.** Push the repository to a private remote, then publish.
+1. **Publish.** The repository is on GitHub and private; make it public when the owner decides.
 2. **Human playtest.** An hour of skirmish and an hour of possession by a person. The findings set the next work.
 3. **Review the unreviewed changes.** Some simulation changes from late October and early November were integrated
    without the adversarial review against the C++ that [AGENTS.md](../AGENTS.md) asks for. Review them, and fix or
