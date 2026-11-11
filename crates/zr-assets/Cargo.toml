@@ -1,0 +1,12 @@
+[package]
+name = "zr-assets"
+description = "Game install discovery and virtual file system over Zero Hour .big and Renegade MIX1 archives"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+cnc-formats.workspace = true
+memmap2.workspace = true
+miniz_oxide.workspace = true

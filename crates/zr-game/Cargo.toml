@@ -1,0 +1,26 @@
+[package]
+name = "zr-game"
+description = "Glue layer: typed templates + simulation + map loading, mirroring the original skirmish start"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[features]
+possession = ["zr-sim/possession"]
+
+[[example]]
+name = "possess_duel"
+required-features = ["possession"]
+
+[dependencies]
+anyhow.workspace = true
+zr-assets.workspace = true
+zr-ini.workspace = true
+zr-map.workspace = true
+zr-roads.workspace = true
+zr-sim = { path = "../zr-sim" }
+zr-templates.workspace = true
+zr-ui.workspace = true
+zr-text.workspace = true
+zr-w3d.workspace = true

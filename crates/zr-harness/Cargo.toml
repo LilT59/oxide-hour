@@ -1,0 +1,22 @@
+[package]
+name = "zr-harness"
+description = "Headless JSON-lines control interface over the simulation, for orchestrators and scripts"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "zr-harness"
+path = "src/main.rs"
+
+[dependencies]
+serde_json.workspace = true
+zr-assets.workspace = true
+zr-game.workspace = true
+zr-sim.workspace = true
+
+[dev-dependencies]
+zr-ini.workspace = true
+zr-map.workspace = true

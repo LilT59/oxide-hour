@@ -1,0 +1,18 @@
+[package]
+name = "zr-sim"
+description = "Deterministic headless simulation core, structured after the original GameLogic"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[features]
+# Possession mode (docs/POSSESSION.md): an addition on top of the faithful Zero Hour port.
+possession = []
+
+[dependencies]
+libm.workspace = true
+zr-map.workspace = true
+
+[dev-dependencies]
+zr-assets.workspace = true

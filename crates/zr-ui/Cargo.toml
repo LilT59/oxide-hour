@@ -1,0 +1,16 @@
+[package]
+name = "zr-ui"
+description = "RTS UI groundwork: .wnd window layouts, MappedImage INI blocks, image/texture resolution"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+zr-assets.workspace = true
+zr-ini.workspace = true
+zr-text = { workspace = true, optional = true }
+
+[features]
+default = ["text"]
+text = ["dep:zr-text"]

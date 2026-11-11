@@ -1,0 +1,29 @@
+[package]
+name = "zr-viewer"
+description = "Bevy map viewer for Zero Hour maps"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[features]
+# Possession mode (docs/POSSESSION.md): P to take control of a unit, radial menu, bone cameras.
+possession = ["zr-game/possession", "zr-sim/possession"]
+
+[dependencies]
+anyhow.workspace = true
+bevy = { workspace = true, features = ["ui", "default_font", "bevy_audio", "wav", "mp3"] }
+zr-assets.workspace = true
+zr-audio.workspace = true
+zr-map.workspace = true
+zr-ini.workspace = true
+zr-terrain.workspace = true
+zr-w3d.workspace = true
+zr-templates.workspace = true
+zr-roads.workspace = true
+zr-water.workspace = true
+zr-sim.workspace = true
+zr-game.workspace = true
+zr-ui.workspace = true
+zr-fx.workspace = true
+zr-text.workspace = true

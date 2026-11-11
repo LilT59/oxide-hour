@@ -1,0 +1,16 @@
+[package]
+name = "zr-w3d"
+description = "Static (rest-pose) W3D model assembly and DDS/TGA texture decoding for Zero Hour"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+zr-assets.workspace = true
+zr-ini.workspace = true
+cnc-formats.workspace = true
+libm.workspace = true
+
+[dev-dependencies]
+zr-map.workspace = true

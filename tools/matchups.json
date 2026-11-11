@@ -1,0 +1,43 @@
+{
+  "_source": "zh-cpp-build/zhbuild/matrix_run.py MATCHUPS (2026-10-28): code, map, difficulty (M/E/H), factions in slot order (first = player 2). Slots k uses start position k and team -1 (no team), which mkrep2.py writes for matrix_run.py.",
+  "_notes": {
+    "map": "the port's map display name (Game::map_path); cpp_map is the replay map directory the C++ matrix_run.py passes",
+    "difficulty": "the port's difficulty name (easy/normal/hard); cpp_difficulty is the matrix_run.py letter (E/M/H)",
+    "factions": "one PlayerTemplate per slot, in slot order; player index = slot + 2 (p0 neutral, p1 civilian)",
+    "starts": "zero-based start position per slot (mkrep2.py: --slot TMPL:DIFF:START:TEAM, START defaults to the slot index)",
+    "teams": "GameInfo team per slot; 0 = no team (free-for-all), the port's spelling of the C++ matrix's -1"
+  },
+  "matchups": {
+    "AN1": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionAmerica", "FactionChina"], "starts": [0, 1], "teams": [0, 0]},
+    "AN2": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionChina", "FactionAmerica"], "starts": [0, 1], "teams": [0, 0]},
+    "AN3": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionGLA", "FactionAmerica"], "starts": [0, 1], "teams": [0, 0]},
+    "AN4": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionAmerica", "FactionGLA"], "starts": [0, 1], "teams": [0, 0]},
+    "AN5": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionGLA", "FactionChina"], "starts": [0, 1], "teams": [0, 0]},
+    "AN6": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionChina", "FactionGLA"], "starts": [0, 1], "teams": [0, 0]},
+    "AN7": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionChina", "FactionChina"], "starts": [0, 1], "teams": [0, 0]},
+
+    "AE1": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "easy", "cpp_difficulty": "E", "factions": ["FactionAmerica", "FactionChina"], "starts": [0, 1], "teams": [0, 0]},
+    "AE2": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "easy", "cpp_difficulty": "E", "factions": ["FactionChina", "FactionAmerica"], "starts": [0, 1], "teams": [0, 0]},
+    "AE3": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "easy", "cpp_difficulty": "E", "factions": ["FactionGLA", "FactionAmerica"], "starts": [0, 1], "teams": [0, 0]},
+
+    "AH1": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "hard", "cpp_difficulty": "H", "factions": ["FactionAmerica", "FactionChina"], "starts": [0, 1], "teams": [0, 0]},
+    "AH2": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "hard", "cpp_difficulty": "H", "factions": ["FactionAmerica", "FactionGLA"], "starts": [0, 1], "teams": [0, 0]},
+    "AH3": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "hard", "cpp_difficulty": "H", "factions": ["FactionChina", "FactionGLA"], "starts": [0, 1], "teams": [0, 0]},
+    "AH4": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "hard", "cpp_difficulty": "H", "factions": ["FactionChina", "FactionAmerica"], "starts": [0, 1], "teams": [0, 0]},
+    "AH5": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "hard", "cpp_difficulty": "H", "factions": ["FactionChina", "FactionChina"], "starts": [0, 1], "teams": [0, 0]},
+    "AH6": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "hard", "cpp_difficulty": "H", "factions": ["FactionGLA", "FactionChina"], "starts": [0, 1], "teams": [0, 0]},
+    "AH7": {"map": "Alpine Assault", "cpp_map": "00maps/alpine assault", "difficulty": "hard", "cpp_difficulty": "H", "factions": ["FactionGLA", "FactionAmerica"], "starts": [0, 1], "teams": [0, 0]},
+
+    "TU1": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionGLA", "FactionChina", "FactionAmerica", "FactionGLA"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "TU2": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionChina", "FactionGLA", "FactionAmerica", "FactionGLA"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "TU3": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionGLA", "FactionAmerica", "FactionChina", "FactionAmerica"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "TU4": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionChina", "FactionAmerica", "FactionChina", "FactionAmerica"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "TU5": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionAmerica", "FactionChina", "FactionAmerica", "FactionChina"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "TU6": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionChina", "FactionAmerica", "FactionGLA", "FactionChina"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "TU7": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionAmerica", "FactionGLA", "FactionChina", "FactionChina"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "TU8": {"map": "Tournament Tundra", "cpp_map": "00maps/tournament tundra", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionGLA", "FactionGLA", "FactionAmerica", "FactionAmerica"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+
+    "FF1": {"map": "Free Fire Zone", "cpp_map": "00maps/free fire zone", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionChina", "FactionAmerica", "FactionGLA", "FactionChina"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]},
+    "FF2": {"map": "Free Fire Zone", "cpp_map": "00maps/free fire zone", "difficulty": "normal", "cpp_difficulty": "M", "factions": ["FactionGLA", "FactionChina", "FactionAmerica", "FactionGLA"], "starts": [0, 1, 2, 3], "teams": [0, 0, 0, 0]}
+  }
+}

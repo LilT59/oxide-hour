@@ -1,0 +1,10 @@
+[package]
+name = "zr-text"
+description = "Game string tables: compiled .csf and source .str files, with the engine's case-insensitive label lookup"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+zr-assets.workspace = true

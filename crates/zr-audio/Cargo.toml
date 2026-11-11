@@ -1,0 +1,11 @@
+[package]
+name = "zr-audio"
+description = "Audio lookup: AudioEvent / MusicTrack / DialogEvent definitions, file resolution and WAV headers"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+zr-assets.workspace = true
+zr-ini.workspace = true

@@ -1,0 +1,14 @@
+[package]
+name = "zr-fx"
+description = "Zero Hour FXList and ParticleSystem templates (client-side effect data)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+zr-ini.workspace = true
+
+[dev-dependencies]
+zr-assets.workspace = true
+zr-w3d.workspace = true

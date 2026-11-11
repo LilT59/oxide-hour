@@ -1,0 +1,35 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+rust-version = "1.86"
+
+[workspace.dependencies]
+anyhow = "1"
+bevy = { version = "0.19.1", default-features = false, features = ["3d", "default_app", "default_platform", "multi_threaded", "png"] }
+cnc-formats = { version = "0.1.0-alpha.5", default-features = false }
+memmap2 = "0.9"
+libm = "0.2"
+miniz_oxide = "0.8"
+serde_json = "1"
+zr-assets = { path = "crates/zr-assets" }
+zr-audio = { path = "crates/zr-audio" }
+zr-map = { path = "crates/zr-map" }
+zr-ini = { path = "crates/zr-ini" }
+zr-terrain = { path = "crates/zr-terrain" }
+zr-w3d = { path = "crates/zr-w3d" }
+zr-roads = { path = "crates/zr-roads" }
+zr-templates = { path = "crates/zr-templates" }
+zr-sim = { path = "crates/zr-sim" }
+zr-game = { path = "crates/zr-game" }
+zr-text = { path = "crates/zr-text" }
+zr-fx = { path = "crates/zr-fx" }
+zr-ui = { path = "crates/zr-ui" }
+zr-water = { path = "crates/zr-water" }
+
+[profile.dev.package."*"]
+opt-level = 2

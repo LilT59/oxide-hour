@@ -1,0 +1,13 @@
+[package]
+name = "zr-templates"
+description = "Typed, engine-faithful game data (objects, weapons, locomotors, armor) built from the INI database"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+zr-ini.workspace = true
+
+[dev-dependencies]
+zr-assets.workspace = true

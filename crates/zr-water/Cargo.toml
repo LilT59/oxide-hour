@@ -1,0 +1,15 @@
+[package]
+name = "zr-water"
+description = "Builds standing-water and river meshes and the water look from a Zero Hour map's water triggers and INI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+libm.workspace = true
+zr-assets.workspace = true
+zr-map.workspace = true
+zr-ini.workspace = true
+zr-w3d.workspace = true

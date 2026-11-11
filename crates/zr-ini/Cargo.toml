@@ -1,0 +1,10 @@
+[package]
+name = "zr-ini"
+description = "Parser and merge-friendly database for the Command & Conquer Generals / Zero Hour INI dialect"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+zr-assets.workspace = true

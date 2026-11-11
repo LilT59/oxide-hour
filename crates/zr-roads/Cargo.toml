@@ -1,0 +1,14 @@
+[package]
+name = "zr-roads"
+description = "Builds road decal meshes and bridge geometry from a Zero Hour map's road/bridge point objects"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+zr-assets.workspace = true
+zr-map.workspace = true
+zr-ini.workspace = true
+zr-w3d.workspace = true

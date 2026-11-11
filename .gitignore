@@ -1,0 +1,9 @@
+/target
+/references
+__pycache__/
+
+# Local working notes: the detailed development log, the audit and the per-batch roadmap detail.
+# The public summaries are CHANGELOG.md and docs/ROADMAP.md.
+/LOG.md
+/docs/AUDIT.md
+/docs/ROADMAP-internal.md

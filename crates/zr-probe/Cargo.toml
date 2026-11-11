@@ -1,0 +1,19 @@
+[package]
+name = "zr-probe"
+description = "Smoke-tests asset parsing against a real Zero Hour / Renegade install"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+anyhow.workspace = true
+cnc-formats.workspace = true
+zr-assets.workspace = true
+zr-audio.workspace = true
+zr-map.workspace = true
+zr-ini.workspace = true
+zr-templates.workspace = true
+zr-text.workspace = true
+zr-ui.workspace = true
